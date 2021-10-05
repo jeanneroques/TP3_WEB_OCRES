@@ -10,6 +10,7 @@ function start(city) {
 
   apiWeather
     .fetchTodayForecast()
+
     .then(function (response) {
       // Récupère la donnée d'une API
       const data = response.data.list;
